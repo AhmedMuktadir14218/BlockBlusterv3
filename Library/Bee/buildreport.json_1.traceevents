@@ -1,0 +1,532 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686306624913818, "dur": 2952498, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306624914042, "dur": 8876, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306624922921, "dur": 31703, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306624954627, "dur": 599878, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306625554508, "dur": 2304472, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306627858981, "dur": 7334, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306627866708, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686306625406901, "dur": 134557, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625407794, "dur": 40271, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625527268, "dur": 3916, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625531188, "dur": 10249, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625531830, "dur": 8982, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625545947, "dur": 1156, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686306625545066, "dur": 2065, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306627866776, "dur": 1892, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686306625587081, "dur":753, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306625587840, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686306625587901, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686306625587916, "dur":427, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686306625588361, "dur":708, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306625589069, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843720, "dur":164, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843884, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843894, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843896, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843901, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843902, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843907, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843909, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843913, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843930, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627843945, "dur":1408, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686306625589862, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625589863, "dur":2783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625592653, "dur":49324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1686306625641984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625642277, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1686306625642887, "dur":123057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686306625765951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625765958, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686306625767232, "dur":23455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625790692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625790753, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625791262, "dur":57835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625849103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625849112, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625849987, "dur":22889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625872883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625872893, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625873547, "dur":120568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625994122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306625994131, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306625995771, "dur":21390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626017166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626017171, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626018745, "dur":171222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626189974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626189983, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626192931, "dur":58513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626251448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626251456, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626252395, "dur":47902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626300301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626300308, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626300749, "dur":23213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626323968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626323977, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626325148, "dur":1617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626326770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626326778, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626327259, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626328131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626328138, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626328549, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626329960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626329967, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626330461, "dur":27463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626357931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626357941, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626359096, "dur":44451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626403551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626403558, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626404795, "dur":23029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626427830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626427840, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626428742, "dur":27061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626455808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626455818, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626456464, "dur":26641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626483109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626483145, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626483608, "dur":74000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626557614, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626557625, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626558370, "dur":122059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626680450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626680457, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626682453, "dur":35169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626717628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626717637, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626718213, "dur":280440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626998659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306626998689, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306626999665, "dur":179085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627178754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306627178761, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627180172, "dur":198985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627379163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306627379172, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627380138, "dur":121242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627501387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306627501396, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627501975, "dur":339483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627841462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686306627841468, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686306627843660, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1686306627843662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625589771, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625589772, "dur":2871, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625592652, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686306625592661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625593609, "dur":197, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686306625593812, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686306625593828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625593900, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686306625595816, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686306625595943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625596045, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686306625599531, "dur":10090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686306625609626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625609636, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686306625610273, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686306625610361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625610367, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686306625611734, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686306625611837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625612246, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686306625612904, "dur":12906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686306625625813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625625819, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686306625626405, "dur":58145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625684556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625686555, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625687485, "dur":48279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686306625735770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625735777, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686306625736928, "dur":45515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625782449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625782622, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625783284, "dur":25252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625808539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625808546, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625808969, "dur":44499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625853473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625853484, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625854037, "dur":52029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625906072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625906081, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625906682, "dur":26396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625933083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625933092, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625933640, "dur":42108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625975754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306625975764, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306625976323, "dur":24894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626001223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626001231, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626001851, "dur":38093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626039951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626039960, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626040738, "dur":143165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626183908, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626183921, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626184624, "dur":25511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626210140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626210216, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626210742, "dur":33273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626244019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626244027, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626244677, "dur":22178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626266862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626266872, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626267507, "dur":32267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626299781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626299789, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626300604, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626301643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626301650, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626302104, "dur":68791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626370901, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626370918, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626371483, "dur":31067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626402556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626402566, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626403298, "dur":37686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626440988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626440998, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626442330, "dur":125068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626567404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626567412, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626568025, "dur":26375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626594405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626594414, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626597743, "dur":36239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626633989, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626634001, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626634853, "dur":44490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626679355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626679364, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626680020, "dur":60843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626740869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626740879, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626741627, "dur":19921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626761556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626761565, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626762127, "dur":54293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626816422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626816427, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626817969, "dur":53487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626871462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306626871472, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306626872238, "dur":249811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627122055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306627122065, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627124429, "dur":86353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627210785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306627210812, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627211399, "dur":197122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627408527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306627408535, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627410676, "dur":123614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627534296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306627534306, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627535071, "dur":206928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627742003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686306627742012, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686306627742735, "dur":100942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625589889, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625589889, "dur":2759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625592653, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686306625592778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625596377, "dur":3241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686306625599660, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686306625599752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625599760, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686306625600802, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686306625601062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625601582, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686306625602209, "dur":13106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306625615320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625615330, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306625615984, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686306625616150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625616166, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686306625616806, "dur":8472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306625625281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625625287, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306625625747, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686306625625850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625625854, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686306625627682, "dur":308933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306625936620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625936628, "dur":14077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306625950756, "dur":29541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306625980304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306625980334, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306625980950, "dur":100844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626081800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626081832, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626082421, "dur":42516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626124943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626124953, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626125847, "dur":97676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626223529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626223539, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626224242, "dur":25996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626250245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626250255, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626250889, "dur":29156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626280051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626280060, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626280624, "dur":2612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626283241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626283250, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626283806, "dur":1380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626285192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626285202, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626287047, "dur":95451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626382505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626382515, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626383196, "dur":56110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626439313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626439322, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626440784, "dur":38644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626479434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626479443, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626480244, "dur":25795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626506046, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626506058, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626506679, "dur":26352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626533037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626533047, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626533614, "dur":30026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626563647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626563657, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626564532, "dur":25924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626590484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626590495, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626591098, "dur":50746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626641851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626641861, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626642508, "dur":143485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626785999, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626786010, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626786615, "dur":29646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626816266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626816297, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626817021, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626817988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626817995, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626818405, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626819201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626819209, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626819683, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626820489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626820496, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626820961, "dur":26812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626847795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626847802, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626848253, "dur":14176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626862435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626862444, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626863224, "dur":3710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626866947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626866956, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626867511, "dur":102954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626970471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306626970480, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306626971105, "dur":189570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627160681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627160690, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627161541, "dur":111089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627272635, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627272648, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627273217, "dur":53437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627326661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627326671, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627327244, "dur":160523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627487773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627487803, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627489504, "dur":46628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627536136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627536145, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627536695, "dur":30129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627566830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627566840, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686306627567594, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627567831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627567951, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568356, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568379, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568888, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627568903, "dur":7209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576125, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576144, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576845, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627576910, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627577383, "dur":1270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627578656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627578662, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579328, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579357, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579706, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627579719, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580074, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580087, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580407, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580421, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580774, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627580794, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686306627581144, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306627581203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686306627581206, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686306627581538, "dur":262170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625589800, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625589801, "dur":2987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625592788, "dur":12740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625605532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625605543, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625606147, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686306625606237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625606251, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686306625607237, "dur":16562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625623806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625623816, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625624843, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686306625624937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625624945, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686306625625726, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625625816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625625819, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686306625627453, "dur":95029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625722487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625722529, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625726511, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686306625726613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625726734, "dur":7375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686306625734163, "dur":73251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625807420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625807432, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625808074, "dur":53531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625861611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625861621, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625862177, "dur":26233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625888416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625888447, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625889570, "dur":24294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625913871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625913880, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625914423, "dur":38833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625953262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306625953272, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306625953821, "dur":62731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626016559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626016569, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626017188, "dur":43993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626061187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626061196, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626062139, "dur":30956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626093100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626093109, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626093655, "dur":45972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626139632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626139642, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626140209, "dur":60069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626200284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626200295, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626201261, "dur":41372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626242639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626242648, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626243293, "dur":29858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626273156, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626273194, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626273898, "dur":36776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626310702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626310711, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626311235, "dur":46760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626357999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626358006, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626359800, "dur":59777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626419583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626419592, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626420597, "dur":31423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626452026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626452035, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626452612, "dur":27025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626479641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626479647, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626482564, "dur":31182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626513751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626513761, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626514551, "dur":31504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626546061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626546070, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626546697, "dur":30015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626576718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626576729, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626577314, "dur":29909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626607228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626607246, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626607792, "dur":47551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626655349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626655359, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626655920, "dur":49266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626705191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626705201, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626705801, "dur":83025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626788830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626788838, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626789969, "dur":52010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626841985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626841995, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626842544, "dur":3978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626846530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626846540, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626847140, "dur":29711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626876858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626876867, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626877413, "dur":66808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626944226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306626944235, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306626944907, "dur":109099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627054012, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627054029, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627054681, "dur":89162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627143848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627143857, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627144397, "dur":34014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627178417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627178426, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627179054, "dur":31688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627210748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627210757, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627211392, "dur":214526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627425925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627425935, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627427811, "dur":36646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627464462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627464472, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627465041, "dur":125090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627590136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686306627590144, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/PC LAB/BlockBuster/BlockBuster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686306627591006, "dur":252674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686306627846375, "dur":1604, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686306627868707, "dur": 368, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686306627866694, "dur": 2393, "ph": "X", "name": "Write chrome-trace events", "args": {} },
